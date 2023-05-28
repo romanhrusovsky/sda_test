@@ -17,7 +17,7 @@ class WhenSearchingForTerms {
     /**
      * Define the webdriver instance to be used for these tests
      */
-    @Managed(driver = "chrome", options = "headless")
+    @Managed(driver = "chrome") //(driver = "chrome", options = "headless")
     WebDriver driver;
 
     /**
